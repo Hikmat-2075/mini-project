@@ -39,7 +39,7 @@ model Product {
   stock       Int
   categoryId  Int
 
-  category    Category  @relation(fields: [id], references: [id])
+  category    Category  @relation(fields: [categoryId], references: [id])
   orderItems  OrderItem[]
 }
 
