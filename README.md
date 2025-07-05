@@ -1,7 +1,7 @@
-# Mini Project - API E-Commerce
+# Mini Project CCI - API E-Commerce
 
-Ini adalah proyek **API E-Commerce sederhana** yang dibuat menggunakan **Node.js**, **Express**, dan **Prisma ORM** dengan database PostgreSQL/MySQL.  
-Proyek ini merupakan bagian dari tugas pengembangan backend web.
+Ini adalah proyek **API E-Commerce sederhana** yang dibuat menggunakan **Node.js**, **Express**, dan **Prisma ORM** dengan database MySQL.  
+Mini Project CCI.
 
 ---
 
@@ -22,8 +22,8 @@ API ini mencakup operasi **CRUD (Create, Read, Update, Delete)** untuk beberapa 
 - Node.js
 - Express
 - Prisma ORM
-- PostgreSQL / MySQL
-- Postman (untuk pengujian dan dokumentasi)
+- MySQL
+- Postman
 
 ---
 
@@ -35,13 +35,3 @@ Kamu dapat melihat dan mencoba semua endpoint melalui dokumentasi Postman beriku
 
 ---
 
-## 📁 Struktur Folder
-
-```bash
-src/
-├── controllers/
-├── services/
-├── routes/
-├── middleware/
-├── config/
-└── index.js
